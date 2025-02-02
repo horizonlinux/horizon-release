@@ -10,8 +10,8 @@
 
 Summary:	Horizon Denali relase files
 Name:		horizon-release
-Version:	%{dist_version}
-Release:	denali-f41
+Version:	dneali-f%{dist_version}
+Release:  1
 License:	MIT
 Source0:	LICENSE
 Source1:	README.developers
