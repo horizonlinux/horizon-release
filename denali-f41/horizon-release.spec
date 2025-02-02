@@ -10,7 +10,7 @@
 
 Summary:	Horizon Denali relase files
 Name:		horizon-release
-Version:	dnealif%{dist_version}
+Version:	dneali.f%{dist_version}
 Release:  1
 License:	MIT
 Source0:	LICENSE
