@@ -82,7 +82,7 @@ ln -s centos-release %{buildroot}%{_sysconfdir}/redhat-release
 
 # URL of the homepage of the distribution
 # Example: gstreamer1-plugins-base.spec
-%global dist_home_url https://horizonlinux.is-a.dev
+%global dist_home_url https://horizonlinux.github.io
 
 # Bugzilla / bug reporting URLs shown to users.
 # Examples: gcc.spec
