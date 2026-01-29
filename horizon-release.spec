@@ -82,7 +82,7 @@ ln -s centos-release %{buildroot}%{_sysconfdir}/redhat-release
 
 # URL of the homepage of the distribution
 # Example: gstreamer1-plugins-base.spec
-%global dist_home_url https://horizon.is-a.dev
+%global dist_home_url https://horizonlinux.is-a.dev
 
 # Bugzilla / bug reporting URLs shown to users.
 # Examples: gcc.spec
@@ -176,8 +176,6 @@ install -m 0644 %{SOURCE304} %{buildroot}/%{_prefix}/lib/sysctl.d/
 %config(noreplace) %{_sysconfdir}/issue
 %config(noreplace) %{_sysconfdir}/issue.net
 %dir %{_sysconfdir}/issue.d
-%dir %{_sysconfdir}/yum.repos.d
-%ghost %{_sysconfdir}/yum.repos.d/redhat.repo
 %{_rpmmacrodir}/macros.dist
 %{_datadir}/redhat-release
 %{_datadir}/centos-release
