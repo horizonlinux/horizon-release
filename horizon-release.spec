@@ -5,7 +5,7 @@
 
 Name:           horizon-release
 Version:        %{major}.%{minor}
-Release:        19%{?dist}
+Release:        20%{?dist}
 Summary:        %{distro} release files
 License:        GPL-2.0-or-later
 URL:            https://github.com/horizonlinux/horizon-release
