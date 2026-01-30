@@ -94,7 +94,7 @@ ln -s centos-release %{buildroot}%{_sysconfdir}/redhat-release
 install -d -m 0755 %{buildroot}%{_prefix}/lib
 cat > %{buildroot}%{_prefix}/lib/os-release << EOF
 NAME="%{dist_name}"
-VERSION="Based on CentOS %{major} (%{release_name})"
+VERSION=""
 RELEASE_TYPE=%{release_type}
 ID="centos"
 ID_LIKE="rhel fedora"
