@@ -5,7 +5,7 @@
 
 Name:           horizon-release
 Version:        %{major}.%{minor}
-Release:        20%{?dist}
+Release:        21%{?dist}
 Summary:        %{distro} release files
 License:        GPL-2.0-or-later
 URL:            https://github.com/horizonlinux/horizon-release
@@ -98,14 +98,13 @@ VERSION=""
 RELEASE_TYPE=%{release_type}
 ID="centos"
 ID_LIKE="rhel fedora"
-VERSION_ID="%{major}"
+VERSION_ID=""
 PLATFORM_ID="platform:el%{major}"
 PRETTY_NAME="%{distro}"
 ANSI_COLOR="0;31"
 LOGO="fedora-logo-sprite"
 CPE_NAME="cpe:/o:horizon:horizon"
 HOME_URL="%{dist_home_url}"
-VENDOR_NAME="Horizon"
 VENDOR_URL="%{dist_home_url}"
 BUG_REPORT_URL="%{dist_bug_report_url}"
 REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux %{major}"
