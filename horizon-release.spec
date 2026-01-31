@@ -5,7 +5,7 @@
 
 Name:           horizon-release
 Version:        %{major}.%{minor}
-Release:        23%{?dist}
+Release:        24%{?dist}
 Summary:        %{distro} release files
 License:        GPL-2.0-or-later
 URL:            https://github.com/horizonlinux/horizon-release
@@ -98,7 +98,7 @@ VERSION=""
 RELEASE_TYPE=%{release_type}
 ID="horizon"
 ID_LIKE="centos rhel fedora"
-VERSION_ID=""
+VERSION_ID="%{major}"
 PLATFORM_ID="platform:el%{major}"
 PRETTY_NAME="%{distro}"
 ANSI_COLOR="0;31"
