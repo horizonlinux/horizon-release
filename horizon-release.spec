@@ -5,7 +5,7 @@
 
 Name:           horizon-release
 Version:        %{major}.%{minor}
-Release:        22%{?dist}
+Release:        23%{?dist}
 Summary:        %{distro} release files
 License:        GPL-2.0-or-later
 URL:            https://github.com/horizonlinux/horizon-release
@@ -96,8 +96,8 @@ cat > %{buildroot}%{_prefix}/lib/os-release << EOF
 NAME="%{dist_name}"
 VERSION=""
 RELEASE_TYPE=%{release_type}
-ID="centos"
-ID_LIKE="rhel fedora"
+ID="horizon"
+ID_LIKE="centos rhel fedora"
 VERSION_ID=""
 PLATFORM_ID="platform:el%{major}"
 PRETTY_NAME="%{distro}"
