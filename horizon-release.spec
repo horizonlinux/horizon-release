@@ -5,7 +5,7 @@
 
 Name:           horizon-release
 Version:        %{major}.%{minor}
-Release:        21%{?dist}
+Release:        22%{?dist}
 Summary:        %{distro} release files
 License:        GPL-2.0-or-later
 URL:            https://github.com/horizonlinux/horizon-release
@@ -107,8 +107,8 @@ CPE_NAME="cpe:/o:horizon:horizon"
 HOME_URL="%{dist_home_url}"
 VENDOR_URL="%{dist_home_url}"
 BUG_REPORT_URL="%{dist_bug_report_url}"
-REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux %{major}"
-REDHAT_SUPPORT_PRODUCT_VERSION="%{distro}"
+REDHAT_SUPPORT_PRODUCT="%{dist_name}"
+REDHAT_SUPPORT_PRODUCT_VERSION=""
 EOF
 
 # Create the symlink for /etc/os-release
